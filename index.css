@@ -2,25 +2,71 @@
 
 h2 {
     font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size:15%;
+    font-size:150%;
     text-align:center;
 }
 h3{font-family:"Trebuchet MS", Helvetica, sans-serif;
-    font-size:4vh;
-    text-align:center;
+    font-size:150%;
+    text-align: center;
+
+
 }
 .text{
     font-family:"Tahoma", Geneva, sans-serif;
-    font-size:2.5vh;
+    font-size:14px;
     padding-left:25%;
     padding-right:25%;
 }
 
-.containerko{
-    text-align:center;
-    padding-left:25%;
-    padding-right:25%;
+
+@media screen and (min-width: 768px) {
+    .text {
+        font-size: 16px;
+
+    }
+}
+@media screen and (max-width: 768px) {
+    h2{
+        justify-content: center;
+    }
+}
+/* Media query for larger tablets */
+@media screen and (min-width: 1024px) {
+    .text {
+        font-size: 18px; /* Font size for larger tablets */
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .text {
+        font-size: 20px; /* Font size for desktop screens */
+    }
 }
 .row{
     padding-left: 30%;
 }
+.map-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+}
+@media screen and (max-width: 768px) {
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 25%;
+        width: 70%;
+        height: 70%;
+
+    }
+}
+

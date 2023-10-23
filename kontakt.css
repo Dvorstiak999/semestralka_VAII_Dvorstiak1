@@ -1,0 +1,55 @@
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    padding-bottom: 10%;
+}
+.kfotka {
+    flex: 0 0 auto;
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-bottom:3%;
+}
+
+.kontakt {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style your text elements as needed */
+h3, h4 {
+    margin: 0;
+    padding-right: 10%;
+    padding-bottom: 10%;
+
+
+}
+
+@media (max-width: 768px) {
+    /* Apply these styles for screens with a maximum width of 768px */
+    .contact-container {
+        flex-direction: column; /* Stack elements vertically */
+        text-align: center; /* Center text when stacked */
+    }
+
+    .kfotka {
+        order: 2;
+    }
+}
+
+h3, h4 {
+    margin: 0;
+    padding-right: 15%;
+    padding-bottom: 4%;
+}
+
