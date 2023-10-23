@@ -44,3 +44,9 @@ a.dropdown-item:hover {
     height:15%;
     width: 10%;
 }
+
+.col-lg-4 {
+    padding-left: 50vh;
+    text-align: center;
+    width: 500px;
+}
