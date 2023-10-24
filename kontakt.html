@@ -7,7 +7,9 @@
     <script src="https://kit.fontawesome.com/725968fb17.js" crossorigin="anonymous"></script>
     <title>Kontakt</title>
     <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="kontakt.css">
+
 </head>
 <body>
 <div id="mainNavigation">
@@ -46,20 +48,67 @@
         </div>
     </div>
 </div>
-<h2>Kontakt</h2>
-<div class="contact-container">
-    <div class="kfotka">
-        <img src="images1/breza1.jpg">
+<div class="center-container">
+    <div class="contact-container">
+        <div class="kfotka">
+            <img src="images1/breza1.jpg">
+        </div>
+        <div class="kontakt">
+            <h3>Základné kontaktné údaje</h3>
+            <h4>Adresa:</h4>
+            Breza 160, Breza 02953<br>
+            <h4>Telefónne číslo:</h4>
+            +421 915 033 641
+            <h4>Email</h4>
+            andrejnacinnabytok@gmail.com
+        </div>
     </div>
-    <div class="kontakt">
-        <h3>Základné kontaktné údaje</h3>
-        <h4>Adresa:</h4>
-        Breza 160, Breza 02953<br>
-        <h4>Telefónne číslo:</h4>
-        +421 915 033 641
-        <h4>Email</h4>
-        andrejnacinnabytok@gmail.com
+</div>
+<div class="container">
+    <div class="text">
+        Kontaktujte nás
     </div>
+    <form action="#">
+        <div class="form-row">
+            <div class="input-data">
+                <input type="text" id="firstName" required>
+                <div class="underline"></div>
+                <label for="firstName">Meno</label>
+            </div>
+            <div class="input-data">
+                <input type="text" id="lastName" required>
+                <div class="underline"></div>
+                <label for="lastName">Priezvisko</label>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="input-data">
+                <input type="text" id="email" required>
+                <div class="underline"></div>
+                <label for="email">Email Address</label>
+            </div>
+            <div class="input-data">
+                <input type="text" id="cislo" required>
+                <div class="underline"></div>
+                <label for="cislo">Číslo</label>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="input-data textarea">
+
+                <div class="underline"></div>
+                <input type="text" id="text" required>
+                <label for="text">Napíšte správu</label>
+                <br />
+                <div class="form-row submit-btn">
+                    <div class="input-data">
+                        <div class="inner"></div>
+                        <input type="submit" value="submit">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 
     </body>

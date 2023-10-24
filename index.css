@@ -5,9 +5,10 @@ h2 {
     font-size:150%;
     text-align:center;
 }
-h3{font-family:"Trebuchet MS", Helvetica, sans-serif;
+h4{font-family:"Trebuchet MS", Helvetica, sans-serif;
     font-size:150%;
     text-align: center;
+    padding-top: 10%;
 
 
 }
@@ -66,7 +67,29 @@ h3{font-family:"Trebuchet MS", Helvetica, sans-serif;
         left: 25%;
         width: 70%;
         height: 70%;
-
     }
+}
+
+
+@media screen and (max-width: 995px) {
+    .pod {
+        margin-left: 10%;
+        padding-right: 15%;
+    }
+}
+.pod{
+    margin-left: 10%;
+    margin-right: 15%;
+    padding-top: 3% ;
+}
+h5 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
